@@ -1,0 +1,123 @@
+.skill_head{
+    @apply text-black mb-[100px] lg:ml-[330px] font-Montserrat sm:p-[20px] 
+}
+.skill_head .skill_text {
+    @apply text-[30px] font-bold mt-[50px]
+}
+.skill_head .single_line{
+    @apply w-[50px] h-[3px] bg-blue-600 mb-[20px]
+}
+.skill_head .skill_details{
+    @apply text-[16px] font-Montserrat font-normal mt-[30px] mb-[30px]
+}
+.skill_row{
+    @apply flex flex-col lg:flex-row justify-center items-center gap-5 
+}
+.html{
+    @apply text-black sm:mb-[30px]
+}
+
+.skill_row .skill_left {
+    @apply flex flex-col gap-3
+}
+.skill_left .html{
+    @apply w-[480px] h-[50px] flex flex-col
+}
+.html .html_text{
+    @apply text-[14px] font-semibold font-Montserrat flex justify-between items-center mb-1
+}
+.html .gray_line1 {
+    @apply w-[480px] h-[10px] bg-gray-400 relative 
+}
+.gray_line1 .blue_line1 {
+    @apply w-[100%] h-full bg-blue-500 absolute left-0;
+  animation: blue_line1 3s forwards;
+}
+@keyframes blue_line1 {
+     0% {
+        width: 0%;
+     }
+     100% {
+        width: 99%;
+     }
+}
+
+.html .gray_line2 {
+    @apply w-[480px] h-[10px] bg-gray-400 relative 
+}
+.gray_line2 .blue_line2 {
+    @apply w-[90%] h-full bg-blue-500 absolute left-0;
+  animation: blue_line2 3s forwards;
+}
+@keyframes blue_line2 {
+     0% {
+        width: 0%;
+     }
+     100% {
+        width: 90%;
+     }
+}
+
+.gray_line3 {
+    @apply w-[480px] h-[10px] bg-gray-400 relative 
+}
+.gray_line3 .blue_line3 {
+    @apply w-[60%] h-full bg-blue-500 absolute left-0;
+  animation: blue_line3 3s forwards;
+}
+@keyframes blue_line3 {
+     0% {
+        width: 0%;
+     }
+     100% {
+        width: 60%;
+     }
+}
+
+.html .gray_line4 {
+    @apply w-[480px] h-[10px] bg-gray-400 relative 
+}
+.gray_line4 .blue_line4 {
+    @apply w-[55%] h-full bg-blue-500 absolute left-0;
+  animation: blue_line4 3s forwards;
+}
+@keyframes blue_line4 {
+     0% {
+        width: 0%;
+     }
+     100% {
+        width: 55%;
+     }
+}
+
+.html .gray_line5 {
+    @apply w-[480px] h-[10px] bg-gray-400 relative 
+}
+.gray_line5 .blue_line5 {
+    @apply w-[75%] h-full bg-blue-500 absolute left-0;
+  animation: blue_line5 3s forwards;
+}
+@keyframes blue_line5 {
+     0% {
+        width: 0%;
+     }
+     100% {
+        width: 85%;
+     }
+}
+
+.html .gray_line6 {
+    @apply w-[480px] h-[10px] bg-gray-400 relative 
+}
+.gray_line6 .blue_line6 {
+    @apply w-[100%] h-full bg-blue-500 absolute left-0;
+  animation: blue_line6 3s forwards;
+}
+@keyframes blue_line6 {
+     0% {
+        width: 0%;
+     }
+     100% {
+        width: 75%;
+     }
+}

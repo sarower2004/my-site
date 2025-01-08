@@ -1,0 +1,7 @@
+
+ .single_line{
+    @apply w-[50px] h-[3px] bg-blue-600 mb-[20px]
+}
+ .service_details{
+    @apply text-[16px] font-Montserrat font-normal mt-[30px] 
+}

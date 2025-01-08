@@ -1,0 +1,64 @@
+.about_row{
+    @apply text-black  lg:ml-[330px] font-Montserrat sm:p-[20px]
+}
+.about_row .about_text {
+    @apply text-[30px] font-bold mt-[50px]
+}
+.about_row .single_line{
+    @apply w-[50px] h-[3px] bg-blue-600 mb-[20px]
+}
+.about_row .about_heading{
+    @apply text-[16px] font-Montserrat font-normal mb-[60px]
+}
+
+.owner_details{
+    @apply lg:flex gap-5 justify-center
+}
+.owner_details .details_left{
+    @apply w-[100%] h-[100%] rounded-[20px] overflow-hidden 
+}
+
+.details_right .details_head{
+    @apply text-[30px] font-Montserrat font-bold mb-[16px]
+}
+.details_text{
+    @apply text-[16px] font-Montserrat font-normal mb-[20px]
+
+}
+.details_right .bio{
+    @apply lg:flex gap-[100px]
+}
+.bio_left ul{
+    @apply flex flex-col gap-4
+}
+.bio_right ul{
+    @apply flex flex-col gap-4
+}
+.bio_left ul li{
+    @apply text-[18px] font-Montserrat flex gap-2
+}
+.bio_right ul li{
+    @apply text-[18px] font-Montserrat flex gap-2
+}
+.bio span{
+    @apply flex font-bold items-center
+}
+.details_icon {
+    @apply text-blue-400
+}
+.details_btm{
+    @apply text-[16px] font-Montserrat font-normal mt-[30px] mb-[50px]
+}
+
+.countUp{
+@apply w-[screen] h-auto flex flex-col gap-[50px] lg:flex-row justify-between items-center mb-[120px]
+}
+.countUp .single_counter {
+@apply  w-[200px] flex lg:justify-center items-center gap-3
+}
+.counter_icon {
+@apply text-[50px] text-blue-600
+}
+.happy_clients{
+@apply text-[16px] text-gray-600 font-bold
+}

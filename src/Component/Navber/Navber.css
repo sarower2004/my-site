@@ -1,0 +1,88 @@
+ .navber{
+    @apply fixed
+}
+.main_menu{
+    @apply w-[300px] h-full bg-gray-900 flex flex-col justify-center items-center gap-4 
+}
+.profile{
+    @apply w-[150px] h-[150px] rounded-full overflow-hidden border-[10px] border-gray-600 
+}
+.owner_name{
+    @apply text-[20px] text-white uppercase font-Montserrat font-semibold
+}
+.social{
+    @apply text-[30px] text-white
+}
+
+.social ul li {
+    @apply p-[5px] bg-black rounded-full
+}
+.social ul li:hover{
+    @apply bg-blue-500;
+    transition: .3s all linear ;
+}
+.menu{
+    @apply w-full text-[16px] text-gray-400 font-Montserrat uppercase mb-[46px]
+}
+.menu ul{
+    @apply flex flex-col gap-1 ml-5
+}
+.menu_icon{
+    @apply text-[18px]
+}
+.menu ul li{
+    @apply flex gap-2 px-[16px] py-1
+}
+.menu ul li:hover{
+    @apply font-bold text-gray-200;
+    transition: .3s all linear ;
+}
+.menu ul li:hover .menu_icon{
+    @apply text-blue-400;
+    transition: .3s all linear ;
+
+}
+.menu ul li a{
+    @apply flex items-center gap-2
+}
+.menu ul li a .menu_icon{
+    @apply text-[30px]
+} 
+
+/* responsvie */
+
+.respon_social li{
+    @apply p-[5px] bg-black rounded-full
+}
+.respon_social li:hover{
+    @apply bg-blue-500;
+    transition: .3s all linear ;
+}
+
+.respon_menu ul li:hover{
+    @apply font-bold text-gray-200;
+    transition: .3s all linear ;
+}
+.respon_menu ul li:hover .menu_icon{
+    @apply text-blue-700;
+    transition: .3s all linear ;
+
+}
+.respon_menu ul li{
+    @apply flex gap-2
+}
+.respon_menu_icon{
+    @apply text-[18px]
+}
+
+.respon_menu ul li:hover{
+    @apply font-bold text-gray-200;
+    transition: .3s all linear ;
+}
+.respon_menu ul li:hover .menu_icon{
+    @apply text-blue-400;
+    transition: .3s all linear ;
+
+}
+
+ 
