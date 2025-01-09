@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../Portfolio/Filter.css"
+import "../Component/Portfolio/Filter.css"
 
-const Filter = () => {
+const Portfolio = () => {
   const [filter, setFilter] = useState("All");
 
   const imageData = [
@@ -113,4 +113,4 @@ const Filter = () => {
   );
 };
 
-export default Filter;
+export default Portfolio ;

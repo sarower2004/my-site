@@ -96,31 +96,31 @@ const Navbar = () => {
                   <li >
                   <IoPersonOutline className="menu_icon" />
 
-                    <a href="#" className="hover:text-blue-400">
+                    <a href="/about" className="hover:text-blue-400">
                       About
                     </a>
                   </li>
                   <li>
                       <IoDocumentTextOutline className="menu_icon"  />
-                    <a href="#" className="hover:text-blue-400">
+                    <a href="/resume" className="hover:text-blue-400">
                       Resume
                     </a>
                   </li>
                   <li>
                      <GrGallery className="menu_icon" />
-                    <a href="#" className="hover:text-blue-400">
+                    <a href="/portfolio" className="hover:text-blue-400">
                       Portfolio
                     </a>
                   </li>
                   <li>
                     <IoReorderTwo className="menu_icon"  />
-                    <a href="#" className="hover:text-blue-400">
+                    <a href="/services" className="hover:text-blue-400">
                       Services
                     </a>
                   </li>
                   <li>
                   <CiMail className="menu_icon"  />
-                    <a href="#" className="hover:text-blue-400">
+                    <a href="/contact" className="hover:text-blue-400">
                       Contact
                     </a>
                   </li>
@@ -204,38 +204,38 @@ const Navbar = () => {
             <li>
               <IoHomeOutline className="respon_menu_icon"/>
 
-              <a href="#" className="hover:text-blue-400">
+              <a href="/" className="hover:text-blue-400">
                 Home
               </a>
             </li>
             <li>
             <IoPersonOutline className="respon_menu_icon" />
 
-              <a href="#" className="hover:text-blue-400">
+              <a href="/about" className="hover:text-blue-400">
                 About
               </a>
             </li>
             <li>
                <IoDocumentTextOutline className="respon_menu_icon"  />
-              <a href="#" className="hover:text-blue-400">
+              <a href="/resume" className="hover:text-blue-400">
                 Resume
               </a>
             </li>
             <li>
               <GrGallery className="respon_menu_icon" />
-              <a href="#" className="hover:text-blue-400">
+              <a href="portfolio" className="hover:text-blue-400">
                 Portfolio
               </a>
             </li>
             <li>
                <IoReorderTwo className="respon_menu_icon"  />
-              <a href="#" className="hover:text-blue-400">
+              <a href="/services" className="hover:text-blue-400">
                 Services
               </a>
             </li>
             <li>
             <CiMail className="respon_menu_icon" />
-              <a href="#" className="hover:text-blue-400">
+              <a href="/contact" className="hover:text-blue-400">
                 Contact
               </a>
             </li>

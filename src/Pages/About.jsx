@@ -6,6 +6,7 @@ import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { GrDocumentVerified } from "react-icons/gr";
 import { BiSupport } from "react-icons/bi";
 import { MdOutlinePeopleAlt } from "react-icons/md";
+import Skill from '../Component/Skill/Skill';
 
 
 
@@ -87,6 +88,9 @@ const About = () => {
                   </div>
                 </div>
                 </div>
+
+        <Skill/>
+
     </>
   )
 }

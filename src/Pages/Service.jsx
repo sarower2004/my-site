@@ -1,11 +1,12 @@
 import React from 'react';
-import "../Service/Service.css"
+import "../Component/Service/Service.css"
 import { IoIosColorPalette } from "react-icons/io";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaGrav } from "react-icons/fa";
 import { MdAttachEmail } from "react-icons/md";
 import { ImMobile2 } from "react-icons/im";
+import Testimonials from '../Component/Testimonial/Testimonials';
 
 
 
@@ -45,6 +46,7 @@ const Services = () => {
   ];
 
   return (
+    <>
     <section className="py-16 bg-gray-50 lg:ml-[320px] sm:p-[20px]">
       <div className="flex flex-col ">
         <div className="mb-12">
@@ -69,6 +71,10 @@ const Services = () => {
         </div>
       </div>
     </section>
+
+
+    <Testimonials/>
+    </>
   );
 };
 
