@@ -12,6 +12,7 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { GrGallery } from "react-icons/gr";
 import { IoReorderTwo } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 
 
@@ -89,40 +90,41 @@ const Navbar = () => {
                   <li>
                     <IoHomeOutline className="menu_icon"/>
 
-                    <a href="/" className="hover:text-blue-400">
-                      Home
+                    <a href="/" >
+                      
                     </a>
+                    <Link to="/" className="hover:text-blue-400"> Home </Link>
                   </li>
                   <li >
                   <IoPersonOutline className="menu_icon" />
 
-                    <a href="/about" className="hover:text-blue-400">
+                    <Link to="/about" className="hover:text-blue-400">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li>
                       <IoDocumentTextOutline className="menu_icon"  />
-                    <a href="/resume" className="hover:text-blue-400">
+                    <Link to="/resume" className="hover:text-blue-400">
                       Resume
-                    </a>
+                    </Link>
                   </li>
                   <li>
                      <GrGallery className="menu_icon" />
-                    <a href="/portfolio" className="hover:text-blue-400">
+                    <Link to="/portfolio" className="hover:text-blue-400">
                       Portfolio
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <IoReorderTwo className="menu_icon"  />
-                    <a href="/services" className="hover:text-blue-400">
+                    <Link to="/services" className="hover:text-blue-400">
                       Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
                   <CiMail className="menu_icon"  />
-                    <a href="/contact" className="hover:text-blue-400">
+                    <Link to="/contact" className="hover:text-blue-400">
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
           </div>
@@ -204,40 +206,40 @@ const Navbar = () => {
             <li>
               <IoHomeOutline className="respon_menu_icon"/>
 
-              <a href="/" className="hover:text-blue-400">
+              <Link to="/" className="hover:text-blue-400">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
             <IoPersonOutline className="respon_menu_icon" />
 
-              <a href="/about" className="hover:text-blue-400">
+              <Link to="/about" className="hover:text-blue-400">
                 About
-              </a>
+              </Link>
             </li>
             <li>
                <IoDocumentTextOutline className="respon_menu_icon"  />
-              <a href="/resume" className="hover:text-blue-400">
+              <Link to="/resume" className="hover:text-blue-400">
                 Resume
-              </a>
+              </Link>
             </li>
             <li>
               <GrGallery className="respon_menu_icon" />
-              <a href="portfolio" className="hover:text-blue-400">
+              <Link to="portfolio" className="hover:text-blue-400">
                 Portfolio
-              </a>
+              </Link>
             </li>
             <li>
                <IoReorderTwo className="respon_menu_icon"  />
-              <a href="/services" className="hover:text-blue-400">
+              <Link to="/services" className="hover:text-blue-400">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
             <CiMail className="respon_menu_icon" />
-              <a href="/contact" className="hover:text-blue-400">
+              <Link to="/contact" className="hover:text-blue-400">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

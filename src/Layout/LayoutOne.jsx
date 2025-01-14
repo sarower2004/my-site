@@ -4,7 +4,6 @@ import Navber from '../Component/Navber/Navber'
 
 
 
-
 export const LayoutOne = () => {
   return (
     <>

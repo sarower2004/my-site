@@ -34,7 +34,7 @@ const Banner = () => {
   }, [text, isDeleting, roles, roleIndex, typingSpeed]);
 
   return (
-    <div className="w-full lg:w-[calc(100%-300px)] h-screen bg-[url('/images/banner.png')] bg-cover bg-center lg:ml-[300px] relative">
+    <div className="w-full lg:w-[calc(100%-300px)] h-screen bg-[url('/images/banner4.png')] bg-cover bg-center lg:ml-[300px] relative">
       <div className="absolute top-1/2 left-10 transform -translate-y-1/2 text-white">
         <h1 className="text-2xl sm:text-3xl lg:text-5xl font-bold uppercase">
           Md Sarower Jahan
