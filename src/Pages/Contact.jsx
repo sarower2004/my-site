@@ -6,7 +6,8 @@ import { MdOutlineEmail } from "react-icons/md";
 const Contact = () => {
   return (
     <>
-      <div className="lg:ml-[320px] sm:p-[20px]">
+  <div id="contact">
+        <div className="lg:ml-[320px] sm:p-[20px]">
           <h2 className="text-[30px] font-Montserrat font-bold">
             Contacts Us
           </h2>
@@ -14,7 +15,7 @@ const Contact = () => {
           <p className="text-gray-600 mt-4 service_details">
             Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.
           </p>
-    </div>
+       </div>
 
     <div className="lg:ml-[320px] bg-blue-50 py-10">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
@@ -100,6 +101,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+
+        </div>
     </>
   );
 };

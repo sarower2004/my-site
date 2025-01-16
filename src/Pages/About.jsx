@@ -16,7 +16,7 @@ import Skill from '../Component/Skill/Skill';
 const About = () => {
   return (
     <>
-     <div className="about_row">
+     <div id="about" className="about_row">
         <p className='about_text'>About</p>
         <div className="single_line"></div>
 

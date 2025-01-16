@@ -65,48 +65,51 @@ const Portfolio = () => {
 
   return (
 <>
-    <section className="lg:ml-[320px] sm:p-[20px] mt-[100px]">
-    <p className='resume_text'>Portfolio</p>
-        <div className="single_line"></div>
-        <p className='resume_details'>Creative and detail-oriented web developer with expertise in designing responsive, user-friendly websites. Skilled in modern web technologies to bring innovative ideas to life."</p>
-    </section>
-    <div className="lg:ml-[300px] mb-[100px]">
+    <div id="portfolio" className="main">
+
+          <section className="lg:ml-[320px] sm:p-[20px] mt-[100px]">
+          <p className='resume_text'>Portfolio</p>
+              <div className="single_line"></div>
+              <p className='resume_details'>Creative and detail-oriented web developer with expertise in designing responsive, user-friendly websites. Skilled in modern web technologies to bring innovative ideas to life."</p>
+          </section>
+          <div className="lg:ml-[300px] mb-[100px]">
 
 
-        <div className="max-w-6xl mx-auto p-6 ">
-            {/* Filter Buttons */}
-            <div className="flex flex-wrap justify-center gap-4 mb-6">
-                {categories.map((category, index) => (
-                <button
-                    key={index}
-                    onClick={() => setFilter(category)}
-                    className={`px-4 py-2 rounded-full text-sm font-semibold transition duration-300 ${
-                    filter === category
-                        ? "bg-blue-500 text-white"
-                        : "bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white"
-                    }`}
-                >
-                    {category}
-                </button>
-                ))}
-            </div>
+              <div className="max-w-6xl mx-auto p-6 ">
+                  {/* Filter Buttons */}
+                  <div className="flex flex-wrap justify-center gap-4 mb-6">
+                      {categories.map((category, index) => (
+                      <button
+                          key={index}
+                          onClick={() => setFilter(category)}
+                          className={`px-4 py-2 rounded-full text-sm font-semibold transition duration-300 ${
+                          filter === category
+                              ? "bg-blue-500 text-white"
+                              : "bg-gray-200 text-gray-700 hover:bg-blue-500 hover:text-white"
+                          }`}
+                      >
+                          {category}
+                      </button>
+                      ))}
+                  </div>
 
-            {/* Filtered Images */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
-                {filteredImages.map((image) => (
-                <div key={image.id} className="overflow-hidden rounded-lg shadow-md">
-                    <img
-                    src={image.url}
-                    alt={image.category}
-                    className="w-full h-auto transition-transform duration-300 hover:scale-105"
-                    />
-                    <p className="text-center text-gray-700 mt-2 text-sm font-medium">
-                    {image.category}
-                    </p>
-                </div>
-                ))}
-            </div>
-            </div>
+                  {/* Filtered Images */}
+                  <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+                      {filteredImages.map((image) => (
+                      <div key={image.id} className="overflow-hidden rounded-lg shadow-md">
+                          <img
+                          src={image.url}
+                          alt={image.category}
+                          className="w-full h-auto transition-transform duration-300 hover:scale-105"
+                          />
+                          <p className="text-center text-gray-700 mt-2 text-sm font-medium">
+                          {image.category}
+                          </p>
+                      </div>
+                      ))}
+                  </div>
+                  </div>
+          </div>
     </div>
 
     </>

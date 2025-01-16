@@ -1,3 +1,4 @@
+
  .navber{
     @apply fixed
 }
@@ -49,9 +50,9 @@
     @apply text-[30px]
 } 
 
-/* responsvie */
+/*= responsvie */
 
-.respon_social li{
+ .respon_social li{
     @apply p-[5px] bg-black rounded-full
 }
 .respon_social li:hover{
@@ -83,6 +84,5 @@
     @apply text-blue-400;
     transition: .3s all linear ;
 
-}
+} 
 
- 

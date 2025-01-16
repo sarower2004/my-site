@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { TiSocialFacebook } from "react-icons/ti";
 import { SlSocialInstagram } from "react-icons/sl";
 import { TiSocialLinkedin } from "react-icons/ti";
-import { TiSocialTwitter } from "react-icons/ti";
+import { FaXTwitter } from "react-icons/fa6";
 import { TiSocialSkype } from "react-icons/ti";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoPersonOutline } from "react-icons/io5";
@@ -12,7 +12,8 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { GrGallery } from "react-icons/gr";
 import { IoReorderTwo } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
-import { Link } from "react-router-dom";
+import { SiUpwork } from "react-icons/si";
+
 
 
 
@@ -28,8 +29,8 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Navbar for large devices */}
-      <div className="hidden lg:flex flex-col bg-gray-800 text-white h-screen w-[200px] md:w-[260px] lg:w-[300px] fixed left-0 top-0 z-10">
+      {/* /* Navbar for large devices */  }
+      <div className="hidden lg:flex flex-col bg-gray-900 text-white h-screen w-[200px] md:w-[260px] lg:w-[300px] fixed left-0 top-0 z-10">
         <div className="flex flex-col items-center p-4">
           <div className="profile">
             <img
@@ -73,13 +74,15 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-300">
-                <TiSocialTwitter />
+              <a href="https://x.com/SAROWER_20" target="_blank"
+                rel="noopener noreferrer" className="hover:text-blue-300">
+                <FaXTwitter /> 
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-400">
-                <TiSocialSkype />
+              <a href="https://www.upwork.com/freelancers/~01644552b9892507b7"target="_blank"
+                rel="noopener noreferrer"  className="hover:text-blue-400">
+                <SiUpwork />
               </a>
             </li>
           </ul>
@@ -93,38 +96,37 @@ const Navbar = () => {
                     <a href="/" >
                       
                     </a>
-                    <Link to="/" className="hover:text-blue-400"> Home </Link>
+                    <a href="#home" className="hover:text-blue-400"> Home </a>
                   </li>
                   <li >
                   <IoPersonOutline className="menu_icon" />
 
-                    <Link to="/about" className="hover:text-blue-400">
+                    <a href="#about" className="hover:text-blue-400">
                       About
-                    </Link>
+                    </a>
                   </li>
                   <li>
                       <IoDocumentTextOutline className="menu_icon"  />
-                    <Link to="/resume" className="hover:text-blue-400">
+                    <a href="#resume" className="hover:text-blue-400">
                       Resume
-                    </Link>
+                    </a>
                   </li>
                   <li>
                      <GrGallery className="menu_icon" />
-                    <Link to="/portfolio" className="hover:text-blue-400">
+                    <a href="#portfolio" className="hover:text-blue-400">
                       Portfolio
-                    </Link>
+                    </a>
                   </li>
                   <li>
                     <IoReorderTwo className="menu_icon"  />
-                    <Link to="/services" className="hover:text-blue-400">
+                    <a href="#services" className="hover:text-blue-400">
                       Services
-                    </Link>
+                    </a>
                   </li>
                   <li>
                   <CiMail className="menu_icon"  />
-                    <Link to="/contact" className="hover:text-blue-400">
-                      Contact
-                    </Link>
+                    <a href="#contact" className="hover:text-blue-400">
+                      Contact                    </a>
                   </li>
                 </ul>
           </div>
@@ -189,13 +191,19 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-300">
-                <TiSocialTwitter />
+              <a href="https://x.com/SAROWER_20"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="hover:text-blue-300">
+                < FaXTwitter/>
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-blue-400">
-                <TiSocialSkype />
+              <a href="https://www.upwork.com/freelancers/~01644552b9892507b7" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-400">
+                <SiUpwork />
               </a>
             </li>
           </ul>
@@ -206,40 +214,40 @@ const Navbar = () => {
             <li>
               <IoHomeOutline className="respon_menu_icon"/>
 
-              <Link to="/" className="hover:text-blue-400">
+              <a href="#home" className="hover:text-blue-400">
                 Home
-              </Link>
+              </a>
             </li>
             <li>
             <IoPersonOutline className="respon_menu_icon" />
 
-              <Link to="/about" className="hover:text-blue-400">
+              <a href="#about" className="hover:text-blue-400">
                 About
-              </Link>
+              </a>
             </li>
             <li>
                <IoDocumentTextOutline className="respon_menu_icon"  />
-              <Link to="/resume" className="hover:text-blue-400">
+              <a href="#resume" className="hover:text-blue-400">
                 Resume
-              </Link>
+              </a>
             </li>
             <li>
               <GrGallery className="respon_menu_icon" />
-              <Link to="portfolio" className="hover:text-blue-400">
+              <a href="#portfolio" className="hover:text-blue-400">
                 Portfolio
-              </Link>
+              </a>
             </li>
             <li>
                <IoReorderTwo className="respon_menu_icon"  />
-              <Link to="/services" className="hover:text-blue-400">
+              <a href="#services" className="hover:text-blue-400">
                 Services
-              </Link>
+              </a>
             </li>
             <li>
             <CiMail className="respon_menu_icon" />
-              <Link to="/contact" className="hover:text-blue-400">
+              <a href="#contact" className="hover:text-blue-400">
                 Contact
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
